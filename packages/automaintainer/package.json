@@ -1,0 +1,25 @@
+{
+  "name": "@(-.-)/automaintainer",
+  "version": "0.0.1",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "18.x",
+    "tsup": "^6.6.3",
+    "typescript": "^4.5.3"
+  },
+  "peerDependencies": {
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --sourcemap"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
+}
