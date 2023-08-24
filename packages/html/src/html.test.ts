@@ -1,4 +1,5 @@
 import { html, renderHtml } from './html'
+import { it, expect } from 'vitest'
 
 it('converts strings', async () => {
   expect(renderHtml('meow')).toBe('meow')

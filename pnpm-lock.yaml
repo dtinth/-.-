@@ -51,6 +51,9 @@ importers:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
+      vitest:
+        specifier: ^0.34.2
+        version: 0.34.2
 
   packages/env:
     devDependencies:
@@ -78,6 +81,12 @@ importers:
       '@tsconfig/node18':
         specifier: ^18.2.1
         version: 18.2.1
+      '@types/lodash.escape':
+        specifier: ^4.0.7
+        version: 4.0.7
+      lodash.escape:
+        specifier: ^4.0.1
+        version: 4.0.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -629,6 +638,16 @@ packages:
     dependencies:
       ci-info: 3.8.0
     dev: false
+
+  /@types/lodash.escape@4.0.7:
+    resolution: {integrity: sha512-k6BN7TWKe5rO11yIhMsVh2K9IZ0h9Vfw168/D/+Bv39qCz7vk0WIKTo8OORsah9o1vlDlkUoieAiU8AuYhXpwQ==}
+    dependencies:
+      '@types/lodash': 4.14.197
+    dev: true
+
+  /@types/lodash@4.14.197:
+    resolution: {integrity: sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==}
+    dev: true
 
   /@types/minimist@1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
@@ -1767,6 +1786,10 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       p-locate: 6.0.0
+    dev: true
+
+  /lodash.escape@4.0.1:
+    resolution: {integrity: sha512-nXEOnb/jK9g0DYMr1/Xvq6l5xMD7GDG55+GSYIYmS0G4tBk/hURD4JR9WCavs04t33WmJx9kCyp9vJ+mr4BOUw==}
     dev: true
 
   /lodash.sortby@4.7.0:

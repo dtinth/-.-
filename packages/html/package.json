@@ -2,10 +2,12 @@
   "name": "@(-.-)/html",
   "version": "0.0.0-0",
   "devDependencies": {
+    "@tsconfig/node18": "^18.2.1",
+    "@types/lodash.escape": "^4.0.7",
+    "lodash.escape": "^4.0.1",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.2",
-    "@tsconfig/node18": "^18.2.1"
+    "vitest": "^0.34.2"
   },
   "scripts": {
     "test": "vitest",
