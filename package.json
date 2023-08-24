@@ -13,7 +13,7 @@
     "turbo": "^1.10.13"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.2"

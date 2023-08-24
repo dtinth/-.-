@@ -73,6 +73,51 @@ importers:
         specifier: ^3.22.2
         version: 3.22.2
 
+  packages/html:
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^18.2.1
+        version: 18.2.1
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vitest:
+        specifier: ^0.34.2
+        version: 0.34.2
+
+  packages/result:
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^18.2.1
+        version: 18.2.1
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vitest:
+        specifier: ^0.34.2
+        version: 0.34.2
+
+  packages/swagger-ui:
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^18.2.1
+        version: 18.2.1
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vitest:
+        specifier: ^0.34.2
+        version: 0.34.2
+
 packages:
 
   /@babel/code-frame@7.22.10:
