@@ -6,19 +6,15 @@
     "dist"
   ],
   "devDependencies": {
-    "@tsconfig/node18": "^1.0.1",
+    "@tsconfig/node18": "^18.2.1",
     "@types/node": "18.x",
-    "tsup": "^6.6.3",
-    "typescript": "^4.5.3"
-  },
-  "peerDependencies": {
+    "pkg-up": "^4.0.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --sourcemap"
+    "build": "tsup src/main.ts --format esm --sourcemap"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   }
