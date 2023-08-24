@@ -10,12 +10,18 @@
     "@types/node": "18.x",
     "pkg-up": "^4.0.0",
     "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.2"
   },
   "scripts": {
-    "build": "tsup src/main.ts --format esm --sourcemap"
+    "build": "tsup src/main.ts --format esm --sourcemap",
+    "test": "vitest"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "url": "git+https://github.com/dtinth/-.-"
+  },
+  "bin": "./dist/main.js"
 }
