@@ -55,6 +55,25 @@ importers:
         specifier: ^0.34.2
         version: 0.34.2
 
+  packages/context:
+    dependencies:
+      typeid-js:
+        specifier: ^0.3.0
+        version: 0.3.0
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^18.2.1
+        version: 18.2.1
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vitest:
+        specifier: ^0.34.2
+        version: 0.34.2
+
   packages/env:
     devDependencies:
       '@tsconfig/node18':
@@ -75,6 +94,21 @@ importers:
       zod:
         specifier: ^3.22.2
         version: 3.22.2
+
+  packages/get-or-put:
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^18.2.1
+        version: 18.2.1
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+      vitest:
+        specifier: ^0.34.2
+        version: 0.34.2
 
   packages/html:
     devDependencies:
@@ -2795,6 +2829,12 @@ packages:
       is-typed-array: 1.1.12
     dev: false
 
+  /typeid-js@0.3.0:
+    resolution: {integrity: sha512-A1EmvIWG6xwYRfHuYUjPltHqteZ1EiDG+HOmbIYXeHUVztmnGrPIfU9KIK1QC30x59ko0r4JsMlwzsALCyiB3Q==}
+    dependencies:
+      uuidv7: 0.4.4
+    dev: false
+
   /typescript@5.2.2:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
@@ -2817,6 +2857,11 @@ packages:
   /universalify@0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
+    dev: false
+
+  /uuidv7@0.4.4:
+    resolution: {integrity: sha512-jjRGChg03uGp9f6wQYSO8qXkweJwRbA5WRuEQE8xLIiehIzIIi23qZSzsyvZPCPoFqkeLtZuz7Plt1LGukAInA==}
+    hasBin: true
     dev: false
 
   /validate-npm-package-license@3.0.4:
